@@ -121,6 +121,10 @@ form button {
   width: 100%;
 }
 
+form div {
+  justify-content: space-between;
+}
+
 /* -------  Footer ------- */
 
 footer {
