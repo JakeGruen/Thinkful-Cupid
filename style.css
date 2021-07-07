@@ -120,6 +120,11 @@ form button {
   width: 100%;
 }
 
+#join {
+  display: flex;
+  flex-direction: row;
+}
+
 /* -------  Footer ------- */
 
 footer {
