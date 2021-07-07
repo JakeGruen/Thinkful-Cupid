@@ -38,37 +38,37 @@
         </div>
       
         <!-- Add join form here -->
-        <div class ="item">
-        <h2>Find Your Perfect Match</h2>
-        <form>
-          <div>
+        <section class="group" id="join">
+        <div class="item">
+          <img src="images/love.png" alt="ThinkfulCupid - love" />
+        </div>
+        <div class="item">
+          <h2>Find your perfect match</h2>
+          <form id="form">
+            <div class="row">
               <label for="email">Email</label>
-              <input 
-              id="email" 
-              type="email" 
-              name="email" 
-              placeholder="email@example.com"/>
+              <input id="email" type="email" placeholder="email@example.com" />
             </div>
-            <div>
+            <div class="row">
               <label for="password">Create a password</label>
-              <input id="password" type="password" name="password"/>
+              <input type="password" id="password" />
             </div>
-            <div>
+            <div class="row">
               <label for="username">Username</label>
-              <input id="username" type="text" name="username"/>
+              <input type="text" id="username" />
             </div>
-            <div>
-              <label for="gender">I am a</label>
-              <select name="gender" size="1">
+            <div class="row">
+              <label for="iAmA">I am a...</label>
+              <select name="iAmA" id="iAmA">
                 <option value="female">female</option>
                 <option value="male">male</option>
-                <option value="other">other</option>
+                <option value="nonbinary">nonbinary</option>
+                <option value="other">other/decline to answer</option>
               </select>
             </div>
             <button type="submit">Join</button>
-        </form>
+          </form>
         </div>
-        </div>   
       </section>
 
       <!-- About -->
