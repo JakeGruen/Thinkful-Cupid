@@ -41,7 +41,7 @@ main img {
 /* ---  Groups & Items --- */
 .group {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   
 }
 
