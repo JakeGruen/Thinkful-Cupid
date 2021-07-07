@@ -35,7 +35,8 @@ section.alternate-background {
 
 main img {
   width: auto;
- 
+  height: 215px;
+  padding: 10px;
 }
 
 /* ---  Groups & Items --- */
