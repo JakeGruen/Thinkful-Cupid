@@ -103,9 +103,6 @@ form {
 form label {
   font-weight: bold;
 }
-form div {
-  justify-content: space-between;
-}
 
 form select,
 form input {
@@ -122,10 +119,6 @@ form button {
   padding: 15px;
   width: 100%;
 }
-.row {
-  justify-content: space-between;
-}
-
 
 /* -------  Footer ------- */
 
