@@ -34,14 +34,14 @@ section.alternate-background {
 }
 
 main img {
-  width: 100%;
+  width: auto;
  
 }
 
 /* ---  Groups & Items --- */
 .group {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   
 }
 
